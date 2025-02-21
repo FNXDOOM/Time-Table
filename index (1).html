@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Time Table</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f9;
+                color: #333;
+            }
+            h1 {
+                text-align: center;
+                color: #4CAF50;
+            }
+            table {
+                width: 80%;
+                margin: 20px auto;
+                border-collapse: collapse;
+                background-color: #fff;
+            }
+            table, th, td {
+                border: 1px solid #007BFF;
+            }
+            th, td {
+                padding: 12px;
+                text-align: center;
+            }
+            th {
+                background-color: #007BFF;
+                color: white;
+            }
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+            tr:nth-child(odd) {
+                background-color: #e6f7ff;
+            }
+            td[colspan="2"] {
+                background-color: #ffeb3b;
+            }
+            td {
+                color: #333;
+            }
+            td:hover {
+                background-color: #ddd;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <img align="left" img src="cambridge.jpeg" alt="Image of the cambridge logo" width="100" height="100">
+        <h1>CAMBRIDGE INSTITUTE OF TECHNOLOGY</h1>
+        <center><h3>An Autonomous Institution</h3></center>
+        <center><h3>DEPARTEMENT OF INFORMATION SCIENCE AND ENGINNEERING</h3></center>
+        <hr>
+        <center><h3>PROGRAM:BE Information Science and Enginering</h3></center>
+        <center><h4>TIME TABLE:EVEN SEMSESTER 2024-2025</h4></center>
+        <table>
+            <tr>
+                <th>Timings</th>
+                <th>8:30-9:25</th>
+                <th>9:25-10:20</th>
+                <th>10:20-10:40</th>
+                <th>10:40-11:35</th>
+                <th>11:35-12:30</th>
+                <th>12:30-1:10</th>
+                <th>1:10-2:05</th>
+                <th>2:05-3:00</th>
+                <th>3:00-3:55</th>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td>CS261:SK</td>
+                <td>CS256:KN</td>
+                <td rowspan="5">Break</td>
+                <td>CS261:SK</td>
+                <td>CS252:GSK</td>
+                <td rowspan="5">Lunch Break</td>
+                <td colspan="2">CS253(B1):KV&GSK/CS255(B2):SHM&KP</td>
+                <td>WAGA</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>CS261:SK</td>
+                <td>CS254:KP</td>
+                <td>HV257:AB</td>
+                <td>CS252:GSK</td>
+                <td>MC251:KJ</td>
+                <td colspan="2">NSS/Sports/Yoga</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>CS254:KP</td>
+                <td>CS256:KN</td>
+                <td colspan="2">CS274:JN&RP</td>
+                <td>CS252:GSK</td>
+                <td colspan="2">SC259:AB</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td colspan="2">CS255(B1):SHM&KP/CS253(B2):KVR&GSK</td>
+                <td>MC251:KJ</td>
+                <td>HV257:AB</td>
+                <td>CS254:KP</td>
+                <td>CS261:SK</td>
+                <td>HS/CE/CG</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>MC251:KJ</td>
+                <td>CS254:KP</td>
+                <td colspan="2">CS256(B1):RP&KN/CS256(B2):JN&MS</td>
+                <td>CS252:GSK</td>
+                <td>MC251:KJ</td>
+                <td>Hobby/Mini Project</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td colspan="9">As Per Calendar of events</td>
+            </tr>
+        </table>
+        <br>
+        <table>
+            <tr>
+                <th>Course code</th>
+                <th>Course Name</th>
+                <th>Faculty Name</th>
+                <th>Course code</th>
+                <th>Course Name</th>
+                <th>Faculty Name</th>
+            </tr>
+            <tr>
+                <td>MC251</td>
+                <td>Applied Mathematics</td>
+                <td>Dr Kavita J(KJ)</td>
+                <td>CS261</td>
+                <td>Finite Automata and Formal Languages</td>
+                <td>Mr Sunil Kumar K N(SK)</td>
+            </tr>
+            <tr>
+                <td>CS252</td>
+                <td>Design and Analysis of Algorithms</td>
+                <td>Ms.Geethu S Kumar(GSK)</td>
+                <td>CS274</td>
+                <td>Arduino-Programming and interfacing</td>
+                <td>Mr.Raghu P (RPY) MS.Jayashree N(JN)</td>
+            </tr>
+            <tr>
+                <td>CS253</td>
+                <td>Design and Analysis of Algorithms Laboratory</td>
+                <td>Ms.Geethu S Kumar(GSK)/Ms.Kavya VR(KVR)</td>
+                <td>HV257</td>
+                <td>Universal Human Values and Life Skills</td>
+                <td>MS.Anusha B(AB)</td>
+            </tr>
+            <tr>
+                <td>CS254</td>
+                <td>Microprocessor & Microcontrollers</td>
+                <td>Dr.Karthik P(KP)</td>
+                <td>SC259</td>
+                <td>Social Connectivity and Responsibility</td>
+                <td>Ms.Anusha B(AB)</td>
+            </tr>
+            <tr>
+                <td>CS255</td>
+                <td>Microprocessor & Microcontrollers Laboratory</td>
+                <td>Dr.Karthik P(KP)/Mr.shivakumar M(ShM)</td>
+                <td>NS258/PE258/YG258</td>
+                <td>NSS-Phase 2/ Physical Education(PE)(Sports and Athletics)- Phase 2/ Yoga for a Better life - Phase 2</td>
+                <td>Dr.Ravishankar(RS)/
+                    Mr.Girish N(GN) /
+                    Mr.Shyam Sudar(SS)
+                </td>
+            </tr>
+            <tr>
+                <td>CS256</td>
+                <td>Web Programming</td>
+                <td>Ms.Karangula Navya(KN)(L)(P)/ MS.Mamatha S(MS)(P)/Mr.Raghu P(RP)(P) /Ms.Jayashree N(JN)(P)</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </body>
+</html>
